@@ -1,0 +1,80 @@
+div{
+	width: 200px;
+	height: 260px;
+	margin:2px;
+	float:left;
+	border:1px solid #D1CACA;
+	background-color: purple;
+	transition-timing-function: 5s;
+  }
+div:hover{
+	border:1px outset #CBCFD1;
+	transition-duration: 2s;
+	box-shadow: 4px 4px 0px 0px;
+}  
+@font-face{
+font-family: 'Satisfy', cursive;
+font-family: 'Handlee', cursive;
+src:https://fonts.google.com/?selection.family=Handlee|Satisfy
+}
+p{
+	text-align: center;
+	font-family: Satisfy;
+	font-size: 14px;
+	margin-left: 12px;
+	margin-right: 12px;
+	color: white;
+   }
+h2{ margin-bottom: 30px;
+	text-align: center;
+	font-family: Handlee;
+	font-size: 16px;
+	color:white;
+}
+h4{ margin-bottom: 15px;
+	text-align: center;
+	font-family: Handlee;
+	font-size: 12px;
+	color:white;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:url('fonts/icomoon.eot');
+    src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.svg#icomoon') format('svg'),
+	url('fonts/icomoon.woff') format('woff'),
+	url('fonts/icomoon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.txt1{
+	font-family:icomoon;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+.txt2{
+	font-family:icomoon;
+	text-align: center;
+	font-size: 30px;
+	color:white;
+}
+.txt3{
+	font-family:icomoon;
+	text-align: center;
+	font-size: 30px;
+	color:white;
+}
+.txt4{
+	font-family:icomoon;
+	text-align: center;
+	font-size: 30px;
+	color:white;
+}
+.txt5{
+	font-family:icomoon;
+	text-align: center;
+	font-size: 30px;
+	color:white;
+}
+
